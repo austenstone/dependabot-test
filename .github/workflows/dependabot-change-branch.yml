@@ -5,5 +5,5 @@ jobs:
   dependabot:
     uses: austenstone/.github/.github/workflows/dependabot-change-branch.yml@main
     with:
-      length: 20
+      length: 125
       prefix: austen-
