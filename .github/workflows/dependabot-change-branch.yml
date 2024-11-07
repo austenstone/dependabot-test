@@ -4,3 +4,6 @@ on: pull_request_target
 jobs:
   dependabot:
     uses: austenstone/.github/.github/workflows/dependabot-change-branch.yml@main
+    with:
+      length: 10
+      prefix: austen-
