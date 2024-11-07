@@ -1,0 +1,9 @@
+name: Change Dependabot Branch Base 🔄
+on: pull_request
+
+permissions:
+  pull-requests: write
+
+jobs:
+  dependabot:
+    uses: austenstone/.github/.github/workflows/dependabot-change-branch.yml@main
